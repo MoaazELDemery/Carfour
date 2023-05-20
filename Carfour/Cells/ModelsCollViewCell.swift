@@ -9,9 +9,17 @@ import UIKit
 
 class ModelsCollViewCell: UICollectionViewCell {
 
+    @IBOutlet var imgView: UIImageView!
+    @IBOutlet var lbl: UILabel!
     override func awakeFromNib() {
         super.awakeFromNib()
         // Initialization code
     }
 
+    func setupCell(name:String, photos:[String]){
+        
+        imgView.image = UIImage(named: photos[0])
+        lbl.text = name
+        
+    }
 }

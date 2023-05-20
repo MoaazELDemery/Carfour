@@ -9,21 +9,58 @@
 /* Begin PBXBuildFile section */
 		D32354CA29B9D61B00CD65DA /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = D32354C929B9D61B00CD65DA /* AppDelegate.swift */; };
 		D32354CC29B9D61B00CD65DA /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = D32354CB29B9D61B00CD65DA /* SceneDelegate.swift */; };
-		D32354CE29B9D61B00CD65DA /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D32354CD29B9D61B00CD65DA /* ViewController.swift */; };
+		D32354CE29B9D61B00CD65DA /* CarsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D32354CD29B9D61B00CD65DA /* CarsViewController.swift */; };
 		D32354D129B9D61B00CD65DA /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D32354CF29B9D61B00CD65DA /* Main.storyboard */; };
 		D32354D329B9D61D00CD65DA /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D32354D229B9D61D00CD65DA /* Assets.xcassets */; };
 		D32354D629B9D61D00CD65DA /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D32354D429B9D61D00CD65DA /* LaunchScreen.storyboard */; };
+		D32354DE29B9DBB800CD65DA /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = D32354DD29B9DBB800CD65DA /* GoogleService-Info.plist */; };
+		D32354E129B9DE1000CD65DA /* FirebaseAnalytics in Frameworks */ = {isa = PBXBuildFile; productRef = D32354E029B9DE1000CD65DA /* FirebaseAnalytics */; };
+		D32354E429B9E16300CD65DA /* CategoriesCollViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = D32354E229B9E16300CD65DA /* CategoriesCollViewCell.swift */; };
+		D32354E529B9E16300CD65DA /* CategoriesCollViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = D32354E329B9E16300CD65DA /* CategoriesCollViewCell.xib */; };
+		D32354E729B9E1D400CD65DA /* Extenstions.swift in Sources */ = {isa = PBXBuildFile; fileRef = D32354E629B9E1D400CD65DA /* Extenstions.swift */; };
+		D332F1612A127252000316F8 /* ImageCollViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = D332F15F2A127252000316F8 /* ImageCollViewCell.swift */; };
+		D332F1622A127252000316F8 /* ImageCollViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = D332F1602A127252000316F8 /* ImageCollViewCell.xib */; };
+		D332F1642A131291000316F8 /* ModelsVariable.swift in Sources */ = {isa = PBXBuildFile; fileRef = D332F1632A131291000316F8 /* ModelsVariable.swift */; };
+		D3815D6D29D87D0D0069D458 /* Data.plist in Resources */ = {isa = PBXBuildFile; fileRef = D3815D6C29D87D0D0069D458 /* Data.plist */; };
+		D3815D7029D884270069D458 /* Data.swift in Sources */ = {isa = PBXBuildFile; fileRef = D3815D6F29D884270069D458 /* Data.swift */; };
+		D3ACDD8E29C6389600C240DD /* SelectedCarViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D3ACDD8D29C6389600C240DD /* SelectedCarViewController.swift */; };
+		D3C149772A07FE6300BF3829 /* ModelsCollViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = D3C149752A07FE6300BF3829 /* ModelsCollViewCell.swift */; };
+		D3C149782A07FE6300BF3829 /* ModelsCollViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = D3C149762A07FE6300BF3829 /* ModelsCollViewCell.xib */; };
+		D3C1497E2A08E87000BF3829 /* Models.plist in Resources */ = {isa = PBXBuildFile; fileRef = D3C1497D2A08E87000BF3829 /* Models.plist */; };
+		D3C149802A0918F500BF3829 /* Models.swift in Sources */ = {isa = PBXBuildFile; fileRef = D3C1497F2A0918F500BF3829 /* Models.swift */; };
+		D3E9972029BE0F8800DDB1ED /* SplashViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D3E9971F29BE0F8800DDB1ED /* SplashViewController.swift */; };
+		D3E9972229BE13F200DDB1ED /* Backslash-Reguler.otf in Resources */ = {isa = PBXBuildFile; fileRef = D3E9972129BE13F100DDB1ED /* Backslash-Reguler.otf */; };
+		D3E9972629BE331200DDB1ED /* Onboarding3ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D3E9972529BE331200DDB1ED /* Onboarding3ViewController.swift */; };
+		D3E9972829C4AB8500DDB1ED /* ModelsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D3E9972729C4AB8500DDB1ED /* ModelsViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		D32354C629B9D61B00CD65DA /* Carfour.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Carfour.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		D32354C929B9D61B00CD65DA /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		D32354CB29B9D61B00CD65DA /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		D32354CD29B9D61B00CD65DA /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		D32354CD29B9D61B00CD65DA /* CarsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CarsViewController.swift; sourceTree = "<group>"; };
 		D32354D029B9D61B00CD65DA /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		D32354D229B9D61D00CD65DA /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		D32354D529B9D61D00CD65DA /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		D32354D729B9D61D00CD65DA /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D32354DD29B9DBB800CD65DA /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
+		D32354E229B9E16300CD65DA /* CategoriesCollViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CategoriesCollViewCell.swift; sourceTree = "<group>"; };
+		D32354E329B9E16300CD65DA /* CategoriesCollViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = CategoriesCollViewCell.xib; sourceTree = "<group>"; };
+		D32354E629B9E1D400CD65DA /* Extenstions.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Extenstions.swift; sourceTree = "<group>"; };
+		D332F15F2A127252000316F8 /* ImageCollViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImageCollViewCell.swift; sourceTree = "<group>"; };
+		D332F1602A127252000316F8 /* ImageCollViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = ImageCollViewCell.xib; sourceTree = "<group>"; };
+		D332F1632A131291000316F8 /* ModelsVariable.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ModelsVariable.swift; sourceTree = "<group>"; };
+		D3815D6C29D87D0D0069D458 /* Data.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Data.plist; sourceTree = "<group>"; };
+		D3815D6F29D884270069D458 /* Data.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Data.swift; sourceTree = "<group>"; };
+		D3ACDD8D29C6389600C240DD /* SelectedCarViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SelectedCarViewController.swift; sourceTree = "<group>"; };
+		D3C149752A07FE6300BF3829 /* ModelsCollViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ModelsCollViewCell.swift; sourceTree = "<group>"; };
+		D3C149762A07FE6300BF3829 /* ModelsCollViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = ModelsCollViewCell.xib; sourceTree = "<group>"; };
+		D3C1497D2A08E87000BF3829 /* Models.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Models.plist; sourceTree = "<group>"; };
+		D3C1497F2A0918F500BF3829 /* Models.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Models.swift; sourceTree = "<group>"; };
+		D3E9971F29BE0F8800DDB1ED /* SplashViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SplashViewController.swift; sourceTree = "<group>"; };
+		D3E9972129BE13F100DDB1ED /* Backslash-Reguler.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Backslash-Reguler.otf"; sourceTree = "<group>"; };
+		D3E9972529BE331200DDB1ED /* Onboarding3ViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Onboarding3ViewController.swift; sourceTree = "<group>"; };
+		D3E9972729C4AB8500DDB1ED /* ModelsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ModelsViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -31,6 +68,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				D32354E129B9DE1000CD65DA /* FirebaseAnalytics in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -56,15 +94,65 @@
 		D32354C829B9D61B00CD65DA /* Carfour */ = {
 			isa = PBXGroup;
 			children = (
+				D3815D6E29D884180069D458 /* Data */,
+				D3E9972429BE173000DDB1ED /* Cells */,
+				D3E9972329BE169D00DDB1ED /* Fonts */,
+				D3E9971E29BE0F4400DDB1ED /* OnBoarding */,
 				D32354C929B9D61B00CD65DA /* AppDelegate.swift */,
 				D32354CB29B9D61B00CD65DA /* SceneDelegate.swift */,
-				D32354CD29B9D61B00CD65DA /* ViewController.swift */,
+				D32354CD29B9D61B00CD65DA /* CarsViewController.swift */,
+				D3E9972729C4AB8500DDB1ED /* ModelsViewController.swift */,
+				D3ACDD8D29C6389600C240DD /* SelectedCarViewController.swift */,
 				D32354CF29B9D61B00CD65DA /* Main.storyboard */,
 				D32354D229B9D61D00CD65DA /* Assets.xcassets */,
 				D32354D429B9D61D00CD65DA /* LaunchScreen.storyboard */,
+				D3E9971F29BE0F8800DDB1ED /* SplashViewController.swift */,
 				D32354D729B9D61D00CD65DA /* Info.plist */,
+				D32354DD29B9DBB800CD65DA /* GoogleService-Info.plist */,
+				D32354E629B9E1D400CD65DA /* Extenstions.swift */,
 			);
 			path = Carfour;
+			sourceTree = "<group>";
+		};
+		D3815D6E29D884180069D458 /* Data */ = {
+			isa = PBXGroup;
+			children = (
+				D3815D6C29D87D0D0069D458 /* Data.plist */,
+				D3815D6F29D884270069D458 /* Data.swift */,
+				D3C1497D2A08E87000BF3829 /* Models.plist */,
+				D3C1497F2A0918F500BF3829 /* Models.swift */,
+				D332F1632A131291000316F8 /* ModelsVariable.swift */,
+			);
+			path = Data;
+			sourceTree = "<group>";
+		};
+		D3E9971E29BE0F4400DDB1ED /* OnBoarding */ = {
+			isa = PBXGroup;
+			children = (
+				D3E9972529BE331200DDB1ED /* Onboarding3ViewController.swift */,
+			);
+			path = OnBoarding;
+			sourceTree = "<group>";
+		};
+		D3E9972329BE169D00DDB1ED /* Fonts */ = {
+			isa = PBXGroup;
+			children = (
+				D3E9972129BE13F100DDB1ED /* Backslash-Reguler.otf */,
+			);
+			path = Fonts;
+			sourceTree = "<group>";
+		};
+		D3E9972429BE173000DDB1ED /* Cells */ = {
+			isa = PBXGroup;
+			children = (
+				D32354E229B9E16300CD65DA /* CategoriesCollViewCell.swift */,
+				D32354E329B9E16300CD65DA /* CategoriesCollViewCell.xib */,
+				D3C149752A07FE6300BF3829 /* ModelsCollViewCell.swift */,
+				D3C149762A07FE6300BF3829 /* ModelsCollViewCell.xib */,
+				D332F15F2A127252000316F8 /* ImageCollViewCell.swift */,
+				D332F1602A127252000316F8 /* ImageCollViewCell.xib */,
+			);
+			path = Cells;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -83,6 +171,9 @@
 			dependencies = (
 			);
 			name = Carfour;
+			packageProductDependencies = (
+				D32354E029B9DE1000CD65DA /* FirebaseAnalytics */,
+			);
 			productName = Carfour;
 			productReference = D32354C629B9D61B00CD65DA /* Carfour.app */;
 			productType = "com.apple.product-type.application";
@@ -111,6 +202,9 @@
 				Base,
 			);
 			mainGroup = D32354BD29B9D61B00CD65DA;
+			packageReferences = (
+				D32354DF29B9DE1000CD65DA /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */,
+			);
 			productRefGroup = D32354C729B9D61B00CD65DA /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
@@ -125,9 +219,16 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				D3C149782A07FE6300BF3829 /* ModelsCollViewCell.xib in Resources */,
+				D3815D6D29D87D0D0069D458 /* Data.plist in Resources */,
 				D32354D629B9D61D00CD65DA /* LaunchScreen.storyboard in Resources */,
+				D32354DE29B9DBB800CD65DA /* GoogleService-Info.plist in Resources */,
 				D32354D329B9D61D00CD65DA /* Assets.xcassets in Resources */,
+				D3C1497E2A08E87000BF3829 /* Models.plist in Resources */,
+				D332F1622A127252000316F8 /* ImageCollViewCell.xib in Resources */,
+				D32354E529B9E16300CD65DA /* CategoriesCollViewCell.xib in Resources */,
 				D32354D129B9D61B00CD65DA /* Main.storyboard in Resources */,
+				D3E9972229BE13F200DDB1ED /* Backslash-Reguler.otf in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -138,9 +239,20 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				D32354CE29B9D61B00CD65DA /* ViewController.swift in Sources */,
+				D3E9972829C4AB8500DDB1ED /* ModelsViewController.swift in Sources */,
+				D3815D7029D884270069D458 /* Data.swift in Sources */,
+				D3E9972629BE331200DDB1ED /* Onboarding3ViewController.swift in Sources */,
+				D3C149802A0918F500BF3829 /* Models.swift in Sources */,
+				D32354CE29B9D61B00CD65DA /* CarsViewController.swift in Sources */,
+				D332F1612A127252000316F8 /* ImageCollViewCell.swift in Sources */,
+				D3C149772A07FE6300BF3829 /* ModelsCollViewCell.swift in Sources */,
+				D332F1642A131291000316F8 /* ModelsVariable.swift in Sources */,
+				D3E9972029BE0F8800DDB1ED /* SplashViewController.swift in Sources */,
+				D32354E729B9E1D400CD65DA /* Extenstions.swift in Sources */,
 				D32354CA29B9D61B00CD65DA /* AppDelegate.swift in Sources */,
+				D32354E429B9E16300CD65DA /* CategoriesCollViewCell.swift in Sources */,
 				D32354CC29B9D61B00CD65DA /* SceneDelegate.swift in Sources */,
+				D3ACDD8E29C6389600C240DD /* SelectedCarViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -290,7 +402,7 @@
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = Carfour/Info.plist;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
-				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen.storyboard;
 				INFOPLIST_KEY_UIMainStoryboardFile = Main;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
@@ -317,7 +429,7 @@
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = Carfour/Info.plist;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
-				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen.storyboard;
 				INFOPLIST_KEY_UIMainStoryboardFile = Main;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
@@ -356,6 +468,25 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		D32354DF29B9DE1000CD65DA /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/firebase/firebase-ios-sdk";
+			requirement = {
+				branch = master;
+				kind = branch;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		D32354E029B9DE1000CD65DA /* FirebaseAnalytics */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = D32354DF29B9DE1000CD65DA /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */;
+			productName = FirebaseAnalytics;
+		};
+/* End XCSwiftPackageProductDependency section */
 	};
 	rootObject = D32354BE29B9D61B00CD65DA /* Project object */;
 }

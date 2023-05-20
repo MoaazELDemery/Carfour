@@ -10,21 +10,9 @@
 	</dict>
 	<dict>
 		<key>name</key>
-		<string>Aston Martin</string>
-		<key>photo</key>
-		<string>astonmartin</string>
-	</dict>
-	<dict>
-		<key>name</key>
 		<string>Audi</string>
 		<key>photo</key>
 		<string>audi</string>
-	</dict>
-	<dict>
-		<key>name</key>
-		<string>Bentley</string>
-		<key>photo</key>
-		<string>bentley</string>
 	</dict>
 	<dict>
 		<key>name</key>
@@ -40,21 +28,9 @@
 	</dict>
 	<dict>
 		<key>name</key>
-		<string>Cadillac</string>
-		<key>photo</key>
-		<string>cadillac</string>
-	</dict>
-	<dict>
-		<key>name</key>
 		<string>Chevrolet</string>
 		<key>photo</key>
 		<string>chevrolet</string>
-	</dict>
-	<dict>
-		<key>name</key>
-		<string>Citroen</string>
-		<key>photo</key>
-		<string>citroen</string>
 	</dict>
 	<dict>
 		<key>name</key>
@@ -67,12 +43,6 @@
 		<string>Ferrari</string>
 		<key>photo</key>
 		<string>ferrari</string>
-	</dict>
-	<dict>
-		<key>name</key>
-		<string>Fiat</string>
-		<key>photo</key>
-		<string>fiat</string>
 	</dict>
 	<dict>
 		<key>name</key>
@@ -94,12 +64,6 @@
 	</dict>
 	<dict>
 		<key>name</key>
-		<string>Infiniti</string>
-		<key>photo</key>
-		<string>infiniti</string>
-	</dict>
-	<dict>
-		<key>name</key>
 		<string>Jaguar</string>
 		<key>photo</key>
 		<string>jaguar</string>
@@ -115,30 +79,6 @@
 		<string>Kia</string>
 		<key>photo</key>
 		<string>kia</string>
-	</dict>
-	<dict>
-		<key>name</key>
-		<string>Lamborghini</string>
-		<key>photo</key>
-		<string>lamborghini</string>
-	</dict>
-	<dict>
-		<key>name</key>
-		<string>Land Rover</string>
-		<key>photo</key>
-		<string>landrover</string>
-	</dict>
-	<dict>
-		<key>name</key>
-		<string>Lexus</string>
-		<key>photo</key>
-		<string>lexus</string>
-	</dict>
-	<dict>
-		<key>name</key>
-		<string>Mazda</string>
-		<key>photo</key>
-		<string>mazda</string>
 	</dict>
 	<dict>
 		<key>name</key>
@@ -172,27 +112,9 @@
 	</dict>
 	<dict>
 		<key>name</key>
-		<string>Peugeot</string>
-		<key>photo</key>
-		<string>peugeot</string>
-	</dict>
-	<dict>
-		<key>name</key>
 		<string>Porsche</string>
 		<key>photo</key>
 		<string>porsche</string>
-	</dict>
-	<dict>
-		<key>name</key>
-		<string>Renault</string>
-		<key>photo</key>
-		<string>renaullt</string>
-	</dict>
-	<dict>
-		<key>name</key>
-		<string>Rolls Royce</string>
-		<key>photo</key>
-		<string>rollsroyce</string>
 	</dict>
 	<dict>
 		<key>name</key>
@@ -205,24 +127,6 @@
 		<string>Skoda</string>
 		<key>photo</key>
 		<string>skoda</string>
-	</dict>
-	<dict>
-		<key>name</key>
-		<string>Subaru</string>
-		<key>photo</key>
-		<string>subaru</string>
-	</dict>
-	<dict>
-		<key>name</key>
-		<string>Suzuki</string>
-		<key>photo</key>
-		<string>suzuku</string>
-	</dict>
-	<dict>
-		<key>name</key>
-		<string>Tesla</string>
-		<key>photo</key>
-		<string>tesla</string>
 	</dict>
 	<dict>
 		<key>name</key>

@@ -16,4 +16,10 @@ class CategoriesCollViewCell: UICollectionViewCell {
         // Initialization code
     }
 
+    func setupCell(name:String, photo:String){
+        
+        imgView.image = UIImage(named: photo)
+        lbl.text = name
+        
+    }
 }
